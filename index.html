@@ -6,6 +6,20 @@
     <title>Attendance Calculator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-LXHQ8BQLMV"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-LXHQ8BQLMV");
+  </script>
   <body>
     <header>
       <div class="heading">
@@ -33,6 +47,9 @@
       <button id="calcBtn">Calculate</button>
     </div>
 
+    <footer>
+      <div class="about-me"></div>
+    </footer>
     <!-- Script goes here -->
     <script src="script.js"></script>
   </body>
